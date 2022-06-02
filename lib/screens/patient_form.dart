@@ -180,7 +180,7 @@ class _PatientFormState extends State<PatientForm> {
                             onPressed: () async {
                               DateTime? pickDate = await showDatePicker(
                                 context: context,
-                                initialDate: DateTime(1998),
+                                initialDate: DateTime.now(),
                                 firstDate: DateTime(1998),
                                 lastDate: DateTime(2030),
                               );
